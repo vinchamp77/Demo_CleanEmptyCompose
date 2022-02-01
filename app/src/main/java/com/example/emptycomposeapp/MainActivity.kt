@@ -37,7 +37,7 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    EmptyComposeAppTheme {
+    EmptyComposeAppTheme(useSystemUIController = false) {
         Greeting("Android")
     }
 }
