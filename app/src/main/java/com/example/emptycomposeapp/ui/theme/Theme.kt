@@ -42,7 +42,7 @@ fun EmptyComposeAppTheme(
 
     if (useSystemUIController) {
         val systemUiController = rememberSystemUiController()
-        systemUiController.setStatusBarColor(
+        systemUiController.setSystemBarsColor(
             color = colors.primaryVariant
         )
     }
