@@ -1,4 +1,4 @@
-package com.example.emptycomposeapp.ui.theme
+package vtsen.hashnode.dev.newemptycomposeapp.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

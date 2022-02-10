@@ -1,4 +1,4 @@
-package com.example.emptycomposeapp.ui.theme
+package vtsen.hashnode.dev.newemptycomposeapp.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

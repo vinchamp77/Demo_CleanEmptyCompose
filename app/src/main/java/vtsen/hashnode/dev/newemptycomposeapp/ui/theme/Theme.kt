@@ -1,4 +1,4 @@
-package com.example.emptycomposeapp.ui.theme
+package vtsen.hashnode.dev.newemptycomposeapp.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -29,7 +29,7 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun EmptyComposeAppTheme(
+fun NewEmptyComposeAppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     useSystemUIController: Boolean = true,
     content: @Composable () -> Unit
