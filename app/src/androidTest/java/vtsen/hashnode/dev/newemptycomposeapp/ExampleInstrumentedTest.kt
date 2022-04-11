@@ -1,4 +1,4 @@
-package com.example.emptycomposeapp
+package vtsen.hashnode.dev.newemptycomposeapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -14,6 +14,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.emptycomposeapp", appContext.packageName)
+        assertEquals("vtsen.hashnode.dev.newemptycomposeapp", appContext.packageName)
     }
 }

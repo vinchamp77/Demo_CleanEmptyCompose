@@ -1,4 +1,4 @@
-package com.example.emptycomposeapp
+package vtsen.hashnode.dev.newemptycomposeapp
 
 import org.junit.Test
 
