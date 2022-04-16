@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.emptycomposeapp.ui.theme.EmptyComposeAppTheme
 
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun MainScreen(useSystemUIController: Boolean = true) {
     EmptyComposeAppTheme(useSystemUIController = useSystemUIController) {
-        Text(text = "Hello Android!")
+        Text(text = stringResource(id = R.string.hello_android))
     }
 }
 

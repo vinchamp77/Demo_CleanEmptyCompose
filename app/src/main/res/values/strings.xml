@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Empty Compose App</string>
+    <string name="hello_android">Hello Android!</string>
 </resources>
