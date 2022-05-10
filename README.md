@@ -5,6 +5,5 @@
 
 ## Branches
 - [master](https://github.com/vinchamp77/Demo_CleanEmptyCompose) - Clean Empty Jetpack Compose App Template
-- [changename](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/changename) - Rename the App Example
-- [master vs changename diff](https://github.com/vinchamp77/Demo_CleanEmptyCompose/compare/master..changename)
+- [changename](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/changename) - Rename the App Example. See [master vs changename](https://github.com/vinchamp77/Demo_CleanEmptyCompose/compare/master..changename) diff.
 - [changename_notest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/changename_notest) - Jetpack Compose App Template (no testing libraries)
