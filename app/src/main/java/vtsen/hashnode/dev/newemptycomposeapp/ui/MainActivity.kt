@@ -1,4 +1,4 @@
-package vtsen.hashnode.dev.newemptycomposeapp
+package vtsen.hashnode.dev.newemptycomposeapp.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,7 +7,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-
+import vtsen.hashnode.dev.newemptycomposeapp.R
 import vtsen.hashnode.dev.newemptycomposeapp.ui.theme.NewEmptyComposeAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -25,7 +25,6 @@ fun MainScreen(useSystemUIController: Boolean = true) {
         Text(text = stringResource(id = R.string.hello_android))
     }
 }
-
 
 @Preview(showBackground = true)
 @Composable
