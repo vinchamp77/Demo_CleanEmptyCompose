@@ -1,4 +1,4 @@
-package com.example.emptycomposeapp.ui.screens
+package vtsen.hashnode.dev.newemptycomposeapp.ui.screens
 
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
