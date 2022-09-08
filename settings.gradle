@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "New Empty Compose App"
-include ("app")
+include ':app'
