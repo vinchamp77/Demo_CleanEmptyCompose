@@ -1,6 +1,7 @@
+@Suppress("DSL_SCOPE_VIOLATION") // Remove when fixed https://youtrack.jetbrains.com/issue/KTIJ-19369
 plugins {
-    id ("com.android.application")
-    id ("org.jetbrains.kotlin.android")
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
 }
 
 android {
@@ -38,7 +39,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.2.0"
+        kotlinCompilerExtensionVersion = libs.versions.androidxComposeCompiler.get()
     }
     packagingOptions {
         resources {
@@ -49,19 +50,13 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.core.ktx)
 
-    implementation("androidx.core:core-ktx:1.8.0")
-    val lifeCycleVersion = "2.5.1"
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifeCycleVersion")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$lifeCycleVersion")
+    implementation(libs.bundles.androidx.lifeycle)
 
-    implementation("androidx.activity:activity-compose:1.5.1")
+    implementation(libs.androidx.activity.compose)
 
-    val composeVersion = "1.2.1"
-    implementation("androidx.compose.ui:ui:$composeVersion")
-    implementation("androidx.compose.material:material:$composeVersion")
-    implementation("androidx.compose.ui:ui-tooling-preview:$composeVersion")
-    debugImplementation("androidx.compose.ui:ui-tooling:$composeVersion")
+    implementation(libs.bundles.compose.ui)
 
-    implementation("com.google.accompanist:accompanist-systemuicontroller:0.24.10-beta")
+    implementation(libs.accompanist.systemuicontroller)
 }
