@@ -5,7 +5,7 @@ kotlin = "1.7.0"
 androidxComposeCompiler = "1.2.0"
 
 androidxCore = "1.8.0"
-androidxLifecycle = "2.5.1"
+androidxLifecycle = "2.6.0-alpha02"
 androidxActivity = "1.5.1"
 androidxComposeUi = "1.2.1"
 accompanistSystemUiController = "0.24.10-beta"
@@ -18,8 +18,7 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 [libraries]
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidxCore" }
 
-androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidxLifecycle" }
-androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidxLifecycle" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidxLifecycle" }
 
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidxActivity" }
 
@@ -31,5 +30,5 @@ androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", versi
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemUiController" }
 
 [bundles]
-androidx-lifeycle = ["androidx-lifecycle-runtime-ktx", "androidx-lifecycle-viewmodel-compose"]
+androidx-lifeycle = ["androidx-lifecycle-runtime-compose"]
 compose-ui = ["androidx-compose-ui", "androidx-compose-material", "androidx-compose-ui-tooling-preview", "androidx-compose-ui-tooling"]
