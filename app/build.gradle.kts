@@ -51,10 +51,7 @@ android {
 dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
-    val lifeCycleVersion = "2.5.1"
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifeCycleVersion")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$lifeCycleVersion")
-
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.0-alpha02")
     implementation("androidx.activity:activity-compose:1.6.0")
 
     val composeVersion = "1.2.1"
