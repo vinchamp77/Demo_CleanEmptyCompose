@@ -10,6 +10,8 @@ androidxActivity = "1.5.1"
 androidxComposeUi = "1.2.1"
 accompanistSystemUiController = "0.24.10-beta"
 
+androidxSplashScreen = "1.0.0"
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
@@ -28,6 +30,8 @@ androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling
 androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidxComposeUi" }
 
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemUiController" }
+
+androidx-splash-screen = { module = "androidx.core:core-splashscreen", version.ref = "androidxSplashScreen" }
 
 [bundles]
 androidx-lifeycle = ["androidx-lifecycle-runtime-compose"]

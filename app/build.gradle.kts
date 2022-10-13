@@ -59,4 +59,6 @@ dependencies {
     implementation(libs.bundles.compose.ui)
 
     implementation(libs.accompanist.systemuicontroller)
+
+    implementation(libs.androidx.splash.screen)
 }
