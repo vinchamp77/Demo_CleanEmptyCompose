@@ -62,6 +62,8 @@ dependencies {
 
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.24.10-beta")
 
+    implementation("androidx.core:core-splashscreen:1.0.0")
+
     testImplementation ("junit:junit:4.13.2")
     testImplementation ("androidx.test:core-ktx:1.4.0")
     testImplementation ("androidx.test.ext:junit:1.1.3")
