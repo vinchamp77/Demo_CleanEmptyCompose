@@ -5,7 +5,8 @@
 
 ## Tech Stack
 - Jetpack Compose
-- Version Catalog
+- Splash Screen
+- Version Catalog (master_vercatalog branch)
 
 ## Articles
 - [Clean Empty Jetpack Compose App Template](https://vtsen.hashnode.dev/clean-empty-jetpack-compose-app-template)
