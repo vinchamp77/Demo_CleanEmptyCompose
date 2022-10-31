@@ -5,6 +5,7 @@
 
 ## Tech Stack
 - Jetpack Compose
+- Accompanist System UI controller
 - Splash Screen
 - Version Catalog (master_vercatalog branch)
 
