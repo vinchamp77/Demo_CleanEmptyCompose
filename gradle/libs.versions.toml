@@ -8,6 +8,7 @@ androidxCore = "1.8.0"
 androidxLifecycle = "2.6.0-alpha02"
 androidxActivity = "1.5.1"
 androidxComposeUi = "1.2.1"
+androidxComposeMaterial = "1.1.0-alpha01"
 accompanistSystemUiController = "0.24.10-beta"
 
 androidxSplashScreen = "1.0.0"
@@ -25,9 +26,10 @@ androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-ru
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidxActivity" }
 
 androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "androidxComposeUi" }
-androidx-compose-material = { module = "androidx.compose.material:material", version.ref = "androidxComposeUi" }
 androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "androidxComposeUi" }
 androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidxComposeUi" }
+
+androidx-compose-material = { module = "androidx.compose.material3:material3", version.ref = "androidxComposeMaterial" }
 
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemUiController" }
 
