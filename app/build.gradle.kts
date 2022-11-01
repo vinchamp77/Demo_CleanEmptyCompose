@@ -56,9 +56,10 @@ dependencies {
 
     val composeVersion = "1.2.1"
     implementation("androidx.compose.ui:ui:$composeVersion")
-    implementation("androidx.compose.material:material:$composeVersion")
     implementation("androidx.compose.ui:ui-tooling-preview:$composeVersion")
     debugImplementation("androidx.compose.ui:ui-tooling:$composeVersion")
+
+    implementation("androidx.compose.material3:material3:1.1.0-alpha01")
 
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.27.0")
 
