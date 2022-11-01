@@ -4,12 +4,12 @@ kotlin = "1.7.0"
 
 androidxComposeCompiler = "1.2.0"
 
-androidxCore = "1.8.0"
+androidxCore = "1.9.0"
 androidxLifecycle = "2.6.0-alpha02"
-androidxActivity = "1.5.1"
+androidxActivity = "1.6.1"
 androidxComposeUi = "1.2.1"
 androidxComposeMaterial = "1.1.0-alpha01"
-accompanistSystemUiController = "0.24.10-beta"
+accompanistSystemUiController = "0.27.0"
 
 androidxSplashScreen = "1.0.0"
 
