@@ -61,4 +61,6 @@ dependencies {
     implementation(libs.accompanist.systemuicontroller)
 
     implementation(libs.androidx.splash.screen)
+
+    implementation(libs.vinchamp77.buildutils)
 }
