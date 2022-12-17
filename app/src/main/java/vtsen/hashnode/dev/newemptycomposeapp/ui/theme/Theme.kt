@@ -1,11 +1,11 @@
 package vtsen.hashnode.dev.newemptycomposeapp.ui.theme
 
-import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import vtsen.hashnode.dev.buildutils.BuildExt
 
 private val LightColorScheme = lightColorScheme(
     primary = md_theme_light_primary,
@@ -77,7 +77,7 @@ fun NewEmptyComposeAppTheme(
     useSystemUIController: Boolean = true,
     content: @Composable () -> Unit
 ) {
-    val useDynamicColor = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
+    val useDynamicColor = BuildExt.VERSION.isDynamicColorSupported()
     val colorScheme = when {
         useDynamicColor -> {
             val context = LocalContext.current

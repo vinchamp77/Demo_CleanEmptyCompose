@@ -10,6 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
+        maven ("https://jitpack.io")
     }
 }
 rootProject.name = "New Empty Compose App"
