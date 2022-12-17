@@ -1,5 +1,9 @@
 # Clean Empty Jetpack Compose App Template
 
+This is the default Jetpack Compose template app that I use as a starting point. There are no themes.xml and colors.xml in the project. By default, Gradle KTS is used and no testing libraries are included. 
+
+For different versions of this template app, refer to different branches of this repository
+
 ## Requirements
 - Android Studio Dolphin or later
 
@@ -9,7 +13,7 @@
 - New Splash Screen based on API >= 31 (works on all previous API levels)
 - Dynamic Color (API >= 31)
 - Version Catalog (master_vercatalog branch)
-- Gradle KTS
+- Gradle KTS / Groovy
 - Material 3
 - BuildUtils (Own Library)
 
@@ -22,4 +26,4 @@
 - [master](https://github.com/vinchamp77/Demo_CleanEmptyCompose) - Gradle KTS (no testing libraries)
 - [master_withtest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_notest) - Gradle KTS (with testing libraries)
 - [master_vercatalog](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_vercatalog) - Gradle KTS (version catalog - no testing libaries) 
-- [master_groovy](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_groovy) - Gradle Groovy (no testing libaries) - not updated anymore
+- [master_groovy](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_groovy) - Gradle Groovy (no testing libaries)
