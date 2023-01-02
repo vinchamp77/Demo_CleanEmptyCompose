@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    namespace = "vtsen.hashnode.dev.newemptycomposeapp"
     compileSdk = 33
 
     defaultConfig {
@@ -46,7 +47,6 @@ android {
             excludes.add("/META-INF/{AL2.0,LGPL2.1}")
         }
     }
-    namespace = "vtsen.hashnode.dev.newemptycomposeapp"
 }
 
 dependencies {
