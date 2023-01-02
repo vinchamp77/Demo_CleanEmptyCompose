@@ -7,3 +7,6 @@ plugins {
     alias(libs.plugins.android.library) apply false
     alias(libs.plugins.kotlin.android) apply false
 }
+
+//Workaround for "Expecting an expression" build error
+println("")
