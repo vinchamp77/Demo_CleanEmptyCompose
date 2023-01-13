@@ -5,7 +5,7 @@ This is the default Jetpack Compose template app that I use as a starting point.
 For different versions of this template app, refer to different branches of this repository
 
 ## Requirements
-- Android Studio Dolphin or later
+- Android Studio Electric Eel or later
 
 ## Tech Stack
 - Jetpack Compose
