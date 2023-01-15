@@ -14,7 +14,7 @@ For different versions of this template app, refer to different branches of this
 - Dynamic Color (API >= 31)
 - Version Catalog (master_vercatalog branch)
 - Gradle KTS / Groovy
-- Material 3
+- Material 3 / Material 2 (master_groovy branch)
 - BuildUtils (own library)
 
 ## Articles
