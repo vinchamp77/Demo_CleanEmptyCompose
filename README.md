@@ -5,7 +5,7 @@ This is the default Jetpack Compose template app that I use as a starting point.
 For different versions of this template app, refer to different branches of this repository
 
 ## Requirements
-- Android Studio Dolphin or later
+- Android Studio Electric Eel or later
 
 ## Tech Stack
 - Jetpack Compose
@@ -15,7 +15,7 @@ For different versions of this template app, refer to different branches of this
 - Version Catalog (master_vercatalog branch)
 - Gradle KTS / Groovy
 - Material 3
-- BuildUtils (Own Library)
+- BuildUtils (own library)
 
 ## Articles
 - [Clean Empty Jetpack Compose App Template](https://vtsen.hashnode.dev/clean-empty-jetpack-compose-app-template) - Rename the App Example. See [diff](https://github.com/vinchamp77/Demo_CleanEmptyCompose/commit/4f86b00ebfa04a91e830f312cfd6c442d23e885a).
