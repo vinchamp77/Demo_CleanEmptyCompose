@@ -8,20 +8,23 @@ For different versions of this template app, refer to different branches of this
 - Android Studio Electric Eel or later
 
 ## Tech Stack
-- Jetpack Compose
-- Accompanist System UI controller
-- New Splash Screen based on API >= 31 (works on all previous API levels)
-- Dynamic Color (API >= 31)
-- Version Catalog (master_vercatalog branch)
-- Gradle KTS / Groovy
-- Material 3 / Material 2 (master_groovy branch)
-- [BuildUtils](https://github.com/vinchamp77/buildutils) (own library)
+| Tech Stack | High-level Implementation Description |
+| --- | --- |
+| [Jetpack Compose](https://developer.android.com/jetpack/compose) | Implement reactive UI using composable functions | 
+| [Accompanist System UI Controller](https://google.github.io/accompanist/systemuicontroller) | Set system bars color |
+| [New Splash Screen](https://developer.android.com/develop/ui/views/launch/splash-screen) | Implement new splach screen based on API >= that works on all previous API levels |
+| [Material 3 Dynamic Color](https://m3.material.io/styles/color/dynamic-color/overview) (API >= 31) | Add dynamic color support for >= API 31 |
+| [Version Catalog](https://docs.gradle.org/current/userguide/platforms.html) (master_vercatalog branch) | Implement version catalog as central declaration of dependencies |
+| [Gradle KTS](https://docs.gradle.org/current/userguide/kotlin_dsl.html) / [Groovy](https://groovy-lang.org/) (master_groovy branch) | Migrate build script from Groovy to Gradle KTS |
+| [Material 3](https://m3.material.io/) / [Material 2](https://m2.material.io/) (master_groovy branch) | Use the latest material design |
+| [BuildUtils](https://github.com/vinchamp77/buildutils) (own library) | Avoid hardcoding build version code (API level) to improve code readability |
 
 ## Articles
 - [Clean Empty Jetpack Compose App Template](https://vtsen.hashnode.dev/clean-empty-jetpack-compose-app-template) - Rename the App Example. See [diff](https://github.com/vinchamp77/Demo_CleanEmptyCompose/commit/4f86b00ebfa04a91e830f312cfd6c442d23e885a).
 - [How to Convert Android Gradle Groovy to KTS?](https://vtsen.hashnode.dev/how-to-convert-android-gradle-groovy-to-kts)
 - [How to add Version Catalog to your Android App?](https://vtsen.hashnode.dev/how-to-add-version-catalog-to-your-android-app)
 - [Implement Default Splash Screen Prior to Android 12](https://vtsen.hashnode.dev/implement-default-splash-screen-prior-to-android-12)
+- [Convert Android App to Use Material 3 Design](https://vtsen.hashnode.dev/convert-android-app-to-use-material-3-design)
 
 ## Branches
 - [master](https://github.com/vinchamp77/Demo_CleanEmptyCompose) - Gradle KTS (no testing libraries)
