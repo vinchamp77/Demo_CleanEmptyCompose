@@ -13,7 +13,7 @@ accompanistSystemUiController = "0.28.0"
 
 androidxSplashScreen = "1.0.0"
 
-buildUtils = "0.0.5"
+buildUtils = "0.0.6"
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
