@@ -40,7 +40,7 @@ android {
     }
     composeOptions {
         //https://developer.android.com/jetpack/androidx/releases/compose-compiler
-        kotlinCompilerExtensionVersion = "1.3.2"
+        kotlinCompilerExtensionVersion = "1.4.3"
     }
     packagingOptions {
         resources {
@@ -52,7 +52,7 @@ android {
 dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
-    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.0-alpha04")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.0-rc01")
     implementation("androidx.activity:activity-compose:1.6.1")
 
     implementation("androidx.compose.ui:ui:1.3.3")
@@ -65,5 +65,5 @@ dependencies {
 
     implementation("androidx.core:core-splashscreen:1.0.0")
 
-    implementation("com.github.vinchamp77:buildutils:0.0.5")
+    implementation("com.github.vinchamp77:buildutils:0.0.6")
 }

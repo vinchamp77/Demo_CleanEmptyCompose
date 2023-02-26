@@ -4,8 +4,8 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
+import com.github.vinchamp77.buildutils.BuildExt
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
-import vtsen.hashnode.dev.buildutils.BuildExt
 
 private val LightColorScheme = lightColorScheme(
     primary = md_theme_light_primary,
