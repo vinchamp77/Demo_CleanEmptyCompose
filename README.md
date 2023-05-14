@@ -5,15 +5,15 @@ This is the default Jetpack Compose template app that I use as a starting point.
 For different versions of this template app, refer to different branches of this repository
 
 ## Requirements
-- Android Studio Electric Eel or later
+- Android Studio Flamingo or later
 
 ## Tech Stack
 | Tech Stack | High-level Implementation Description |
 | --- | --- |
 | [Jetpack Compose](https://developer.android.com/jetpack/compose) | Implement reactive UI using composable functions | 
 | [Accompanist System UI Controller](https://google.github.io/accompanist/systemuicontroller) | Set system bars color |
-| [New Splash Screen](https://developer.android.com/develop/ui/views/launch/splash-screen) | Implement new splash screen based on API >= that works on all previous API levels |
-| [Material 3 Dynamic Color](https://m3.material.io/styles/color/dynamic-color/overview) (API >= 31) | Add dynamic color support for >= API 31 |
+| [New Splash Screen](https://developer.android.com/develop/ui/views/launch/splash-screen) | Implement new splash screen based on API >= 31 that works on all previous API levels |
+| [Material 3 Dynamic Color](https://m3.material.io/styles/color/dynamic-color/overview) | Add dynamic color support for >= API 31 |
 | [Version Catalog](https://docs.gradle.org/current/userguide/platforms.html) (master_vercatalog branch) | Implement version catalog as central declaration of dependencies |
 | [Gradle KTS](https://docs.gradle.org/current/userguide/kotlin_dsl.html) / [Groovy](https://groovy-lang.org/) (master_groovy branch) | Migrate build script from Groovy to Gradle KTS |
 | [Material 3](https://m3.material.io/) / [Material 2](https://m2.material.io/) (master_groovy branch) | Use the latest material design |
