@@ -40,7 +40,7 @@ android {
     }
     composeOptions {
         //https://developer.android.com/jetpack/androidx/releases/compose-compiler
-        kotlinCompilerExtensionVersion = "1.4.5"
+        kotlinCompilerExtensionVersion = "1.4.7"
     }
     packaging {
         resources {
