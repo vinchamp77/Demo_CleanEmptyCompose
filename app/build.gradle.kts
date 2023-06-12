@@ -62,7 +62,8 @@ dependencies {
 
     implementation("androidx.compose.material3:material3:1.2.0-alpha02")
 
-    implementation("com.google.accompanist:accompanist-systemuicontroller:0.28.0")
+    //https://github.com/google/accompanist/releases
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.30.1")
 
     implementation("androidx.core:core-splashscreen:1.0.1")
 
