@@ -1,6 +1,7 @@
 [versions]
 androidGradlePlugin = "8.0.2"
 kotlin = "1.8.21"
+spotless = "6.19.0"
 
 androidxComposeCompiler = "1.4.7"
 
@@ -19,6 +20,8 @@ buildUtils = "0.0.11"
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+diffplug-spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
+
 
 [libraries]
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidxCore" }
