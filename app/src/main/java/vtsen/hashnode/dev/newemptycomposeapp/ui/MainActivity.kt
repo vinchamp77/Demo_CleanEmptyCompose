@@ -14,7 +14,6 @@ import vtsen.hashnode.dev.newemptycomposeapp.ui.theme.NewEmptyComposeAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-
         setupSplashScreen()
 
         super.onCreate(savedInstanceState)
