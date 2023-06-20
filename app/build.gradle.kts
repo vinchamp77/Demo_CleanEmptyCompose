@@ -1,6 +1,6 @@
 plugins {
-    id ("com.android.application")
-    id ("org.jetbrains.kotlin.android")
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
 }
 
 android {
@@ -22,10 +22,11 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled  = false
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
-                    "proguard-rules.pro")
+                "proguard-rules.pro",
+            )
         }
     }
     compileOptions {
@@ -39,7 +40,7 @@ android {
         compose = true
     }
     composeOptions {
-        //https://developer.android.com/jetpack/androidx/releases/compose-compiler
+        // https://developer.android.com/jetpack/androidx/releases/compose-compiler
         kotlinCompilerExtensionVersion = "1.4.7"
     }
     packaging {
@@ -62,7 +63,7 @@ dependencies {
 
     implementation("androidx.compose.material3:material3:1.1.0")
 
-    //https://github.com/google/accompanist/releases
+    // https://github.com/google/accompanist/releases
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.30.1")
 
     implementation("androidx.core:core-splashscreen:1.0.1")

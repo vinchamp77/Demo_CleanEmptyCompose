@@ -21,6 +21,7 @@ For different versions of this template app, refer to different branches of this
 
 ## Articles
 - [Clean Empty Jetpack Compose App Template](https://vtsen.hashnode.dev/clean-empty-jetpack-compose-app-template) - Rename the App Example. See [diff](https://github.com/vinchamp77/Demo_CleanEmptyCompose/commit/4f86b00ebfa04a91e830f312cfd6c442d23e885a).
+- [Beginner's Guide to Understand Build Gradle Files in Android Studio](https://vtsen.hashnode.dev/beginners-guide-to-understand-build-gradle-files-in-android-studio)
 - [How to Convert Android Gradle Groovy to KTS?](https://vtsen.hashnode.dev/how-to-convert-android-gradle-groovy-to-kts)
 - [How to add Version Catalog to your Android App?](https://vtsen.hashnode.dev/how-to-add-version-catalog-to-your-android-app)
 - [Implement Default Splash Screen Prior to Android 12](https://vtsen.hashnode.dev/implement-default-splash-screen-prior-to-android-12)
@@ -31,3 +32,21 @@ For different versions of this template app, refer to different branches of this
 - [master_withtest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_notest) - Gradle KTS (with testing libraries)
 - [master_vercatalog](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_vercatalog) - Gradle KTS (version catalog, no testing libraries) 
 - [master_groovy](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_groovy) - Gradle Groovy (no testing libraries, material 2)
+
+## License
+```
+Copyright 2023 Vincent Tsen
+
+Licensed under the Apache License, Version 2.0 (the "License");
+
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
