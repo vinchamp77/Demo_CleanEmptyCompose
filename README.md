@@ -21,6 +21,7 @@ For different versions of this template app, refer to different branches of this
 
 ## Articles
 - [Clean Empty Jetpack Compose App Template](https://vtsen.hashnode.dev/clean-empty-jetpack-compose-app-template) - Rename the App Example. See [diff](https://github.com/vinchamp77/Demo_CleanEmptyCompose/commit/4f86b00ebfa04a91e830f312cfd6c442d23e885a).
+- [Beginner's Guide to Understand Build Gradle Files in Android Studio](https://vtsen.hashnode.dev/beginners-guide-to-understand-build-gradle-files-in-android-studio)
 - [How to Convert Android Gradle Groovy to KTS?](https://vtsen.hashnode.dev/how-to-convert-android-gradle-groovy-to-kts)
 - [How to add Version Catalog to your Android App?](https://vtsen.hashnode.dev/how-to-add-version-catalog-to-your-android-app)
 - [Implement Default Splash Screen Prior to Android 12](https://vtsen.hashnode.dev/implement-default-splash-screen-prior-to-android-12)
