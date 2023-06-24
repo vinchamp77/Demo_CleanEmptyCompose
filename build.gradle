@@ -25,5 +25,12 @@ subprojects {
             target '*.gradle'
             greclipse()
         }
+
+        afterEvaluate {
+            tasks.named("preBuild") {
+                dependsOn("spotlessApply")
+            }
+        }
+
     }
 }
