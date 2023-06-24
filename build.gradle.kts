@@ -25,4 +25,10 @@ subprojects {
             ktlint()
         }
     }
+
+    afterEvaluate {
+        tasks.named("preBuild") {
+            dependsOn("spotlessApply")
+        }
+    }
 }
