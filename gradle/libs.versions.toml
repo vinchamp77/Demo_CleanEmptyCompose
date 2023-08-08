@@ -1,5 +1,5 @@
 [versions]
-androidGradlePlugin = "8.0.2"
+androidGradlePlugin = "8.1.0"
 kotlin = "1.8.21"
 spotless = "6.19.0"
 
@@ -9,7 +9,7 @@ androidxCore = "1.10.1"
 androidxLifecycle = "2.6.1"
 androidxActivity = "1.7.2"
 androidxComposeUi = "1.4.3"
-androidxComposeMaterial = "1.1.0"
+androidxComposeMaterial = "1.1.1"
 accompanistSystemUiController = "0.30.1"
 
 androidxSplashScreen = "1.0.1"
