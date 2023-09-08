@@ -1,14 +1,14 @@
 [versions]
-androidGradlePlugin = "8.1.0"
+androidGradlePlugin = "8.1.1"
 kotlin = "1.8.21"
 spotless = "6.19.0"
 
 androidxComposeCompiler = "1.4.7"
 
-androidxCore = "1.10.1"
-androidxLifecycle = "2.6.1"
+androidxCore = "1.12.0"
+androidxLifecycle = "2.6.2"
 androidxActivity = "1.7.2"
-androidxComposeUi = "1.4.3"
+androidxComposeUi = "1.5.1"
 androidxComposeMaterial = "1.1.1"
 accompanistSystemUiController = "0.30.1"
 
