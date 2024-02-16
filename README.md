@@ -18,6 +18,7 @@ For different versions of this template app, refer to different branches of this
 | [Gradle KTS](https://docs.gradle.org/current/userguide/kotlin_dsl.html) / [Groovy](https://groovy-lang.org/) (master_groovy branch) | Migrate build script from Groovy to Gradle KTS |
 | [Material 3](https://m3.material.io/) / [Material 2](https://m2.material.io/) (master_groovy branch) | Use the latest material design |
 | [BuildUtils](https://github.com/vinchamp77/buildutils) (own library) | Avoid hard coding build version code (API level) to improve code readability |
+| [Spotless Plugin](https://plugins.gradle.org/plugin/com.diffplug.gradle.spotless) | Automate code formatting for Kotlin and copyright text | 
 
 ## Articles
 - [Clean Empty Jetpack Compose App Template](https://vtsen.hashnode.dev/clean-empty-jetpack-compose-app-template) - Rename the App Example. See [diff](https://github.com/vinchamp77/Demo_CleanEmptyCompose/commit/4f86b00ebfa04a91e830f312cfd6c442d23e885a).
