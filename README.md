@@ -5,7 +5,7 @@ This is the default Jetpack Compose template app that I use as a starting point.
 For different versions of this template app, refer to different branches of this repository
 
 ## Requirements
-- Android Studio Giraffe or later
+- Android Studio Hedgehog or later
 
 ## Tech Stack
 | Tech Stack | High-level Implementation Description |
