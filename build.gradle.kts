@@ -15,7 +15,7 @@ subprojects {
     configure<com.diffplug.gradle.spotless.SpotlessExtension> {
         kotlin {
             target("**/*.kt")
-            targetExclude("$buildDir/**/*.kt")
+            targetExclude("${getLayout()}.getBuildDirectory()/**/*.kt")
 
             ktlint()
             licenseHeaderFile(rootProject.file("spotless/copyright.kt"))
