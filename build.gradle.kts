@@ -2,8 +2,8 @@ buildscript {
 }
 
 plugins {
-    id("com.android.application") version "8.2.2" apply false
-    id("com.android.library") version "8.2.2" apply false
+    id("com.android.application") version "8.5.1" apply false
+    id("com.android.library") version "8.5.1" apply false
     //https://kotlinlang.org/docs/releases.html#update-to-a-new-release
     id("org.jetbrains.kotlin.android") version "1.9.0" apply false
     //https://plugins.gradle.org/plugin/com.diffplug.gradle.spotless
@@ -15,7 +15,7 @@ subprojects {
     configure<com.diffplug.gradle.spotless.SpotlessExtension> {
         kotlin {
             target("**/*.kt")
-            targetExclude("$buildDir/**/*.kt")
+            targetExclude("${getLayout()}.getBuildDirectory()/**/*.kt")
 
             ktlint()
             licenseHeaderFile(rootProject.file("spotless/copyright.kt"))
