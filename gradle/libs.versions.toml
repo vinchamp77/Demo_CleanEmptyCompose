@@ -1,0 +1,48 @@
+[versions]
+androidGradlePlugin = "8.5.1"
+kotlin = "1.9.0"
+spotless = "6.25.0"
+
+androidxComposeCompiler = "1.5.1"
+
+androidxCore = "1.13.1"
+androidxLifecycle = "2.8.3"
+androidxActivity = "1.9.0"
+androidxComposeUi = "1.6.8"
+androidxComposeMaterial = "1.2.1"
+accompanistSystemUiController = "0.30.1"
+
+androidxSplashScreen = "1.0.1"
+
+buildUtils = "0.0.11"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+diffplug-spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
+
+
+[libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidxCore" }
+
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidxLifecycle" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidxLifecycle" }
+
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidxActivity" }
+
+androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "androidxComposeUi" }
+androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "androidxComposeUi" }
+androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidxComposeUi" }
+
+androidx-compose-material = { module = "androidx.compose.material3:material3", version.ref = "androidxComposeMaterial" }
+
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemUiController" }
+
+androidx-splash-screen = { module = "androidx.core:core-splashscreen", version.ref = "androidxSplashScreen" }
+
+vinchamp77-buildutils = { module = "com.github.vinchamp77:buildutils", version.ref = "buildUtils" }
+
+[bundles]
+androidx-lifeycle = ["androidx-lifecycle-runtime-compose", "androidx-lifecycle-viewmodel-compose"]
+compose-ui = ["androidx-compose-ui", "androidx-compose-material", "androidx-compose-ui-tooling-preview", "androidx-compose-ui-tooling"]
