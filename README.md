@@ -1,6 +1,6 @@
 # Clean Empty Jetpack Compose App Template
 
-This is the default Jetpack Compose template app that I use as a starting point. There are no themes.xml and colors.xml in the project. By default, Gradle KTS is used, and no testing libraries are included. 
+This is the default Jetpack Compose template app that I use as a starting point. There are no themes.xml and colors.xml in the project. By default, Gradle KTS and Version Catalog are used, and no testing libraries are included. 
 
 For different versions of this template app, refer to different branches of this repository
 
