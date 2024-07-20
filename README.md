@@ -30,10 +30,10 @@ For different versions of this template app, refer to different branches of this
 - [How to Add Spotless Code Formatter to your Android Project?](https://vtsen.hashnode.dev/how-to-add-spotless-code-formatter-to-your-android-project)
 
 ## Branches
-- [master](https://github.com/vinchamp77/Demo_CleanEmptyCompose) - Gradle KTS (no testing libraries)
-- [master_withtest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_notest) - Gradle KTS (with testing libraries)
-- [master_vercatalog](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_vercatalog) - Gradle KTS (version catalog, no testing libraries) 
-- [master_groovy](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_groovy) - Gradle Groovy (no testing libraries, material 2)
+- [master](https://github.com/vinchamp77/Demo_CleanEmptyCompose) - Gradle KTS + Version Catalog (no testing libraries)
+- [master_withtest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_kts) - Gradle KTS (material 3, without testing libraries - not updated anymore)
+- [master_vercatalog](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_kts_withtest) - Gradle KTS (makterial 3with testing libraries - not updated anymore) 
+- [master_groovy](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_groovy) - Gradle Groovy (no testing libraries, material 2 - not updated anymore)
 
 ## License
 ```
