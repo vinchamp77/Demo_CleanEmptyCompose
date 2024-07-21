@@ -30,6 +30,7 @@ For different versions of this template app, refer to different branches of this
 - [How to Add Spotless Code Formatter to your Android Project?](https://vtsen.hashnode.dev/how-to-add-spotless-code-formatter-to-your-android-project)
 
 ## Branches
+**Active**
 - [master](https://github.com/vinchamp77/Demo_CleanEmptyCompose) - Gradle KTS + Version Catalog + Spotless Code Formatter (no testing libraries)
 - [master_withtest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_withtest) - Gradle KTS + Version Catalog + Spotless Code Formatter (with testing libraries)
 
