@@ -15,8 +15,8 @@ For different versions of this template app, refer to different branches of this
 | [New Splash Screen](https://developer.android.com/develop/ui/views/launch/splash-screen) | Implement new splash screen based on API >= 31 that works on all previous API levels |
 | [Material 3 Dynamic Color](https://m3.material.io/styles/color/dynamic-color/overview) | Add dynamic color support for >= API 31 |
 | [Version Catalog](https://docs.gradle.org/current/userguide/platforms.html) | Implement version catalog as central declaration of dependencies |
-| [Gradle KTS](https://docs.gradle.org/current/userguide/kotlin_dsl.html) (master & master_kts branches)<br>[Groovy](https://groovy-lang.org/) (master_groovy branch) | Migrate build script from Groovy to Gradle KTS |
-| [Material 3](https://m3.material.io/) (master & master_kts branches)<br>[Material 2](https://m2.material.io/) (master_groovy branch) | Use the latest material design |
+| [Gradle KTS](https://docs.gradle.org/current/userguide/kotlin_dsl.html)<br>[Groovy](https://groovy-lang.org/) (master_groovy branch) | Migrate build script from Groovy to Gradle KTS |
+| [Material 3](https://m3.material.io/)<br>[Material 2](https://m2.material.io/) (master_groovy branch) | Use the latest material design |
 | [BuildUtils](https://github.com/vinchamp77/buildutils) (own library) | Avoid hard coding build version code (API level) to improve code readability |
 | [Spotless Plugin](https://plugins.gradle.org/plugin/com.diffplug.gradle.spotless) | Automate code formatting for Kotlin and copyright text | 
 
@@ -30,11 +30,14 @@ For different versions of this template app, refer to different branches of this
 - [How to Add Spotless Code Formatter to your Android Project?](https://vtsen.hashnode.dev/how-to-add-spotless-code-formatter-to-your-android-project)
 
 ## Branches
+### Active
 - [master](https://github.com/vinchamp77/Demo_CleanEmptyCompose) - Gradle KTS + Version Catalog + Spotless Code Formatter (no testing libraries)
 - [master_withtest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_withtest) - Gradle KTS + Version Catalog + Spotless Code Formatter (with testing libraries)
-- [master_kts](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_kts) - Gradle KTS (material 3, no testing libraries - not updated anymore)
-- [master_kts_withtest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_kts_withtest) - Gradle KTS (material 3, with testing libraries - not updated anymore) 
-- [master_groovy](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_groovy) - Gradle Groovy (no testing libraries, material 2 - not updated anymore)
+
+### Not Updated Anymore
+- [master_kts](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_kts) - Gradle KTS (material 3, no testing libraries)
+- [master_kts_withtest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_kts_withtest) - Gradle KTS (material 3, with testing libraries) 
+- [master_groovy](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_groovy) - Gradle Groovy (no testing libraries, material 2)
 
 ## License
 ```
