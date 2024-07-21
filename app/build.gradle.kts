@@ -64,4 +64,7 @@ dependencies {
     implementation(libs.androidx.splash.screen)
 
     implementation(libs.vinchamp77.buildutils)
+
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.bundles.android.test)
 }

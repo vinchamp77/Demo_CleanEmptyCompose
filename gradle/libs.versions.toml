@@ -16,6 +16,10 @@ androidxSplashScreen = "1.0.1"
 
 buildUtils = "0.0.11"
 
+junit = "4.13.2"
+junitKtx = "1.2.1"
+expressoCore = "3.6.1"
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
@@ -43,6 +47,11 @@ androidx-splash-screen = { module = "androidx.core:core-splashscreen", version.r
 
 vinchamp77-buildutils = { module = "com.github.vinchamp77:buildutils", version.ref = "buildUtils" }
 
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx-test-ext-junit-ktx = { module = "androidx.test.ext:junit-ktx", version.ref = "junitKtx" }
+androidx-test-expresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "expressoCore" }
+
 [bundles]
 androidx-lifeycle = ["androidx-lifecycle-runtime-compose", "androidx-lifecycle-viewmodel-compose"]
 compose-ui = ["androidx-compose-ui", "androidx-compose-material", "androidx-compose-ui-tooling-preview", "androidx-compose-ui-tooling"]
+android-test = ["androidx-test-ext-junit-ktx", "androidx-test-expresso-core"]
