@@ -1,6 +1,6 @@
 # Clean Empty Jetpack Compose App Template
 
-This is the default Jetpack Compose template app that I use as a starting point. There are no themes.xml and colors.xml in the project. By default, Gradle KTS and Version Catalog are used, and no testing libraries are included. 
+This is the default Jetpack Compose template app that I use as a starting point. There are no themes.xml and colors.xml in the project. By default, Gradle KTS, Version Catalog, Spotless code formatter are used, and no testing libraries are included.
 
 For different versions of this template app, refer to different branches of this repository.
 
@@ -30,14 +30,15 @@ For different versions of this template app, refer to different branches of this
 - [How to Add Spotless Code Formatter to your Android Project?](https://vtsen.hashnode.dev/how-to-add-spotless-code-formatter-to-your-android-project)
 
 ## Branches
-- [master](https://github.com/vinchamp77/Demo_CleanEmptyCompose) - Gradle KTS + Version Catalog (no testing libraries)
-- [master_kts](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_kts) - Gradle KTS (material 3, without testing libraries - not updated anymore)
+- [master](https://github.com/vinchamp77/Demo_CleanEmptyCompose) - Gradle KTS + Version Catalog + Spotless Code Formatter (no testing libraries)
+- [master_withtest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_withtest) - Gradle KTS + Version Catalog + Spotless Code Formatter (with testing libraries)
+- [master_kts](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_kts) - Gradle KTS (material 3, no testing libraries - not updated anymore)
 - [master_kts_withtest](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_kts_withtest) - Gradle KTS (material 3, with testing libraries - not updated anymore) 
 - [master_groovy](https://github.com/vinchamp77/Demo_CleanEmptyCompose/tree/master_groovy) - Gradle Groovy (no testing libraries, material 2 - not updated anymore)
 
 ## License
 ```
-Copyright 2023 Vincent Tsen
+Copyright 2024 Vincent Tsen
 
 Licensed under the Apache License, Version 2.0 (the "License");
 
