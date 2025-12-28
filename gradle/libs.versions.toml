@@ -17,8 +17,8 @@ androidxSplashScreen = "1.2.0"
 buildUtils = "0.0.11"
 
 junit = "4.13.2"
-junitKtx = "1.2.1"
-expressoCore = "3.6.1"
+junitKtx = "1.3.0"
+expressoCore = "3.7.0"
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
