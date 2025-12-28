@@ -5,7 +5,7 @@ This is the default Jetpack Compose template app that I use as a starting point.
 For different versions of this template app, refer to different branches of this repository.
 
 ## Requirements
-- Android Studio Koala or later
+- Android Studio Otter or later
 
 ## Tech Stack
 | Tech Stack | High-level Implementation Description |
@@ -41,7 +41,7 @@ For different versions of this template app, refer to different branches of this
 
 ## License
 ```
-Copyright 2024 Vincent Tsen
+Copyright 2025 Vincent Tsen
 
 Licensed under the Apache License, Version 2.0 (the "License");
 
