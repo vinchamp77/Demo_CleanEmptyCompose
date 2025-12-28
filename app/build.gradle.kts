@@ -1,17 +1,18 @@
-@Suppress("DSL_SCOPE_VIOLATION") // Remove when fixed https://youtrack.jetbrains.com/issue/KTIJ-19369
+// @Suppress("DSL_SCOPE_VIOLATION") // Remove when fixed https://youtrack.jetbrains.com/issue/KTIJ-19369
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.plugin.compose)
 }
 
 android {
     namespace = "vtsen.hashnode.dev.newemptycomposeapp"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "vtsen.hashnode.dev.newemptycomposeapp"
-        minSdk = 21
-        targetSdk = 34
+        minSdk = 23
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -34,15 +35,17 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_1_8)
+        }
     }
     buildFeatures {
         compose = true
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.androidxComposeCompiler.get()
-    }
+    // ComposeOptions {
+    //    kotlinCompilerExtensionVersion = libs.versions.androidxComposeCompiler.get()
+    // }
     packaging {
         resources {
             excludes.add("/META-INF/{AL2.0,LGPL2.1}")
