@@ -1,5 +1,5 @@
 [versions]
-androidGradlePlugin = "8.5.1"
+androidGradlePlugin = "8.13.2"
 kotlin = "1.9.0"
 spotless = "6.25.0"
 
